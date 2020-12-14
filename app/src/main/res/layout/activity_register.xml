@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBackGroundRegister"
+        android:layout_width="398dp"
+        android:layout_height="628dp"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="@string/background_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_15" />
+
+    <ImageView
+        android:id="@+id/viewRectangleRegister"
+        android:layout_width="386dp"
+        android:layout_height="579dp"
+        android:layout_marginTop="132dp"
+        android:contentDescription="@string/rectangle_register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login_rectangle" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="322dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="@string/edit_login_register"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <EditText
+        android:id="@+id/editTxtPassword"
+        android:layout_width="323dp"
+        android:layout_height="47dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="@string/edit_password_register"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <EditText
+        android:id="@+id/editTxtConfirmPassword"
+        android:layout_width="323dp"
+        android:layout_height="47dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="@string/edit_confirmpassword_register"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <ImageView
+        android:id="@+id/imageViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/cadastrese_font"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287"
+        app:srcCompat="@drawable/cadastrese" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCadastrar"
+        android:layout_width="307dp"
+        android:layout_height="51dp"
+        android:contentDescription="@string/imagebtn_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821"
+        app:srcCompat="@drawable/castrar_button" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSeta2"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:contentDescription="@string/seta_register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

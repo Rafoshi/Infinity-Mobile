@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Infinity Mobile</string>
+    <string name="view_splash"></string>
+    <string name="vector_splash"></string>
+    <string name="vector_infinity"></string>
+    <string name="vector_tech"></string>
+    <string name="background_firstrun"></string>
+    <string name="vector_firstrun"></string>
+    <string name="waves_firstrun"></string>
+    <string name="btn_login"></string>
+    <string name="btn_register"></string>
+    <string name="background_login"></string>
+    <string name="rectangle_login"></string>
+    <string name="login_font"></string>
+    <string name="login_branco"></string>
+    <string name="imagebtn_login"></string>
+    <string name="edit_login">Nome</string>
+    <string name="edit_password">Senha</string>
+    <string name="background_register"></string>
+    <string name="rectangle_register"></string>
+    <string name="edit_login_register">Nome</string>
+    <string name="edit_password_register">Senha</string>
+    <string name="edit_confirmpassword_register">Confirmar senha</string>
+    <string name="cadastrese_font"></string>
+    <string name="imagebtn_register"></string>
+    <string name="navbar"></string>
+    <string name="background_home"></string>
+    <string name="tatiane"></string>
+    <string name="webplaceholder"></string>
+    <string name="textplaceholder"></string>
+    <string name="viteiplaceholder"></string>
+    <string name="statusplaceholder"></string>
+    <string name="cardwhite"></string>
+    <string name="btn_home"></string>
+    <string name="btn_order"></string>
+    <string name="btn_info"></string>
+    <string name="background_info"></string>
+    <string name="seta_login"></string>
+    <string name="seta_register"></string>
+    <string name="view_titlesub">Encontre-nos no mapa</string>
+    <string name="img_maps"></string>
+    <string name="view_Infotitle">Informações</string>
+    <string name="view_cnpj">CNPJ :84.224.656/0001-88</string>
+    <string name="view_tel">Telefone: 55 (11) 133-26468</string>
+    <string name="view_endereco">Endereço: Rua Laplace número 996</string>
+    <string name="view_email">E-mail: itu.etec@gmail.com</string>
+    <string name="img_halfrectangle"></string>
+    <string name="seta_info"></string>
+    <string name="title_info">Sobre</string>
+    <string name="navbar_info"></string>
+    <string name="orderbtn_info"></string>
+    <string name="infobtn_info"></string>
+    <string name="homebtn_info"></string>
+    <string name="img_complete"></string>
+    <string name="placeholder_1"></string>
+    <string name="placeholder_2"></string>
+    <string name="placeholder_3"></string>
+    <string name="placeholder_4"></string>
+    <string name="cli_title">Cadastrar</string>
+    <string name="cli_name">Nome</string>
+    <string name="cli_sname">Sobrenome</string>
+    <string name="cli_cel">Celular</string>
+    <string name="cli_email">E-mail</string>
+    <string name="cli_subtitle">Cliente</string>
+    <string name="ordertitle">Pedido</string>
+    <string name="spinner"></string>
+    <string name="descri_order">Descrição:</string>
+    <string name="btn_order_pedido"></string>
+    <string name="value_total">Valor Total: R$8300</string>
+    <string name="img_boxorder"></string>
+    <string name="btn_typecheck"></string>
+    <string name="background_final"></string>
+    <string name="card_final_1"></string>
+    <string name="card_final_2"></string>
+    <string name="name_place"></string>
+    <string name="sname_place"></string>
+    <string name="type_place">Web + Mobile</string>
+    <string name="descri_place"></string>
+    <string name="por_place">Por: Vitor</string>
+    <string name="status_place">Status: Pendente</string>
+
+    <string-array name="tipos_pedido">
+        <item>Web</item>
+        <item>Mobile</item>
+        <item>Web e Mobile</item>
+    </string-array>
+</resources>

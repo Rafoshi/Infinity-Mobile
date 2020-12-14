@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ViewBackGroundFirstRun"
+        android:layout_width="393dp"
+        android:layout_height="551dp"
+        android:contentDescription="@string/background_firstrun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rectangle_15" />
+
+    <ImageView
+        android:id="@+id/ViewVectorFirstRun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/vector_firstrun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378"
+        app:srcCompat="@drawable/vector" />
+
+    <ImageView
+        android:id="@+id/ViewWavesFirstRun"
+        android:layout_width="383dp"
+        android:layout_height="142dp"
+        android:contentDescription="@string/waves_firstrun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837"
+        app:srcCompat="@drawable/waves" />
+
+    <ImageView
+        android:id="@+id/ViewBranco"
+        android:layout_width="415dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="480dp"
+        android:contentDescription="@string/login_branco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/branco" />
+
+    <ImageButton
+        android:id="@+id/BtnLogin"
+        android:layout_width="169dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/btn_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/loginbutton"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/BtnRegister"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/btn_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        app:srcCompat="@drawable/registerbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

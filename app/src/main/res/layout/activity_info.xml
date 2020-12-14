@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".InfoActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBackGroundHomeinfo"
+        android:layout_width="451dp"
+        android:layout_height="643dp"
+        android:contentDescription="@string/background_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_15" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSeta3"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:background="@null"
+        android:contentDescription="@string/seta_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/seta" />
+
+    <ImageView
+        android:id="@+id/imageViewComplete"
+        android:layout_width="384dp"
+        android:layout_height="165dp"
+        android:contentDescription="@string/img_complete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/branco" />
+
+    <ImageView
+        android:id="@+id/imageViewHalf"
+        android:layout_width="385dp"
+        android:layout_height="53dp"
+        android:contentDescription="@string/img_halfrectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@drawable/half_rectangle" />
+
+    <TextView
+        android:id="@+id/textViewSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="@string/title_info"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/imageViewBackGroundHomeinfo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ScrollView
+        android:layout_width="384dp"
+        android:layout_height="495dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951">
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="405dp"
+            android:background="@android:color/background_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="12dip"
+                android:layout_marginTop="10dip"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/view_titlesub" />
+
+            <ImageView
+                android:id="@+id/imageViewInfoMaps"
+                android:layout_width="434dp"
+                android:layout_height="286dp"
+                android:layout_margin="12dip"
+                android:contentDescription="@string/img_maps"
+                app:srcCompat="@drawable/inforua" />
+
+            <TextView
+                android:id="@+id/textViewTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="12dip"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="@string/view_Infotitle"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dip"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/view_endereco" />
+
+            <TextView
+                android:id="@+id/textViewTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dip"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/view_tel" />
+
+            <TextView
+                android:id="@+id/textViewCNPJ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dip"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/view_cnpj" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dip"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/view_email" />
+
+            <TextView
+                android:id="@+id/textViewplaceholder1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_1" />
+
+            <TextView
+                android:id="@+id/textViewplaceholder2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_2" />
+
+            <TextView
+                android:id="@+id/textViewplaceholder3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_3" />
+
+            <TextView
+                android:id="@+id/textViewplaceholder4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageViewNavbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/navbar_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/navbar" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHome2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:contentDescription="@string/homebtn_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOrder2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:contentDescription="@string/orderbtn_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/clipboard" />
+
+    <ImageButton
+        android:id="@+id/imageButtonInfo2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:contentDescription="@string/infobtn_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
